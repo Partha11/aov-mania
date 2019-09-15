@@ -1,4 +1,4 @@
-package com.tiptoptips.aovnews.data;
+package com.tiptoptips.aovnews.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -6,8 +6,8 @@ import androidx.room.PrimaryKey;
 
 import com.tiptoptips.aovnews.constants.Constants;
 
-@Entity
-public class Abilities {
+@Entity(tableName = Constants.ABILITY_TABLE)
+public class Ability {
 
     @PrimaryKey
     private int id;
